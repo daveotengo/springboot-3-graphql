@@ -12,8 +12,13 @@ This Standalone Spring boot project demonstrates the crud operations on Product 
     WAY3: docker compose up -d
 
 ## 3. Once the application is started you can access http://localhost:11111/graphiql
-    ![GraphiQL](screen-shots/Screenshot 2023-11-28 at 9.47.05 PM.png.PNG)
-    
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot1.png)
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot2.png)
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot3.png)
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot4.png)
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot5.png)
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot6.png)
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot7.png)
 
 ## Testing the Application:
 
@@ -34,7 +39,7 @@ This Standalone Spring boot project demonstrates the crud operations on Product 
     
     JSON/postman syntax:
         {
-            "query":"{getAllProducts{id name price stock {name rating} }}"
+            "query":"{getAllProducts{id name price stock {id name price stock} }}"
         }
     ```
 
