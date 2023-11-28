@@ -1,0 +1,41 @@
+
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Query {
+    getAllProducts: [Product]
+    getProductById(id: ID!): Product
+}
+
+
+type Mutation {
+    createProduct(input: CreateProductInput!): Product
+    updateProduct(input: UpdateProductInput!): Product
+    deleteProduct(id: ID!): DeletionStatus
+}
+
+type Product {
+  id: ID!
+  name: String!
+  stock: Int!
+  price: Float!
+}
+
+input CreateProductInput {
+  name: String!
+  stock: Int!
+  price: Float!
+}
+
+input UpdateProductInput {
+      id: ID!
+      stock: Int!
+      price: Float!
+}
+
+type DeletionStatus {
+    success: Boolean!
+    message: String!
+}

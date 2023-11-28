@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  spring-boot-graphql:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - '11111:11111'
+    deploy:
+      resources:
+        limits:
+          cpus: '0.8'
+          memory: '400M'

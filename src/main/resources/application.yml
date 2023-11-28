@@ -1,0 +1,76 @@
+server:
+  port: 11111
+
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphiql
+    cors:
+      allowed-origins: "*"
+      #allow-credentials: true
+      allowed-methods: "*"
+      allowed-headers: "*"
+      max-age: 180
+    schema:
+      file-extensions: .graphqls
+      inspection:
+        enabled: true
+      locations: classpath:graphql/**/
+      printer:
+        enabled: true
+
+  application:
+    name:  SPRING-BOOT-GRAPHQL
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      settings:
+        x-frame-options: ''
+        web-allow-others: true
+      enabled: true
+    datasource:
+      platform: h2
+
+    tomcat:
+      test-while-idle: true
+      validation-query: SELECT 1
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        ddl-auto: update
+        jdbc:
+          time_zone: UTC
+
+graphql:
+  servlet:
+    #corsEnabled: true
+    mapping: /graphql
+
+voyager:
+  mapping: /voyager
+
+logging:
+  level:
+    org.hibernate.SQL: WARN
+#    org:
+#      springframework: DEBUG
+#    graphql: DEBUG
+
+decorator:
+  datasource:
+    p6spy: # logging SQL after binding parameters
+      enable-logging: true
+      multiline: true
+      logging: sysout
+      log-format: '%(sql)'
+
+
