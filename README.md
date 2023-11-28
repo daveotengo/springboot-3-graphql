@@ -17,8 +17,15 @@ This Standalone Spring boot project demonstrates the crud operations on Product 
 ![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot3.png)
 ![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot4.png)
 ![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot5.png)
+<<<<<<< HEAD
 ![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot6.png)
 ![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot7.png)
+=======
+
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot6.png)
+    
+    
+>>>>>>> b01c85d4bdd46dfcd363fc2a9c6caa7794a35c88
 
 ## Testing the Application:
 
