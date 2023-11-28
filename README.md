@@ -13,8 +13,12 @@ This Standalone Spring boot project demonstrates the crud operations on Product 
 
 ## 3. Once the application is started you can access http://localhost:11111/graphiql
 ![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot1.png)
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot2.png)
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot3.png)
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot4.png)
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot5.png)
 
-
+![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot6.png)
     
     
 
