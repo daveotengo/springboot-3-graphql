@@ -12,7 +12,8 @@ This Standalone Spring boot project demonstrates the crud operations on Product 
     WAY3: docker compose up -d
 
 ## 3. Once the application is started you can access http://localhost:11111/graphiql
-    ![GraphiQL](screenshots/Screenshot1.png)
+        ![GraphiQL](https://raw.githubusercontent.com/daveotengo@gmail.com/springboot-3-graphql/main/screenshots/Screenshot1.png)
+
     
     
 
