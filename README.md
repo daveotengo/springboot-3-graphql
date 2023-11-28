@@ -12,7 +12,7 @@ This Standalone Spring boot project demonstrates the crud operations on Product 
     WAY3: docker compose up -d
 
 ## 3. Once the application is started you can access http://localhost:11111/graphiql
-    ![GraphiQL](screen-shots/Screenshot 2023-11-28 at 9.47.05 PM.png.PNG)
+    ![GraphiQL](screen-shots/Screenshot1.PNG)
     
 
 ## Testing the Application:
