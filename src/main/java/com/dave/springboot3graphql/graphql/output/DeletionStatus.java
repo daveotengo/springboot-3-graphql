@@ -1,4 +1,4 @@
-package com.dave.springboot3graphql.graphql.schema;
+package com.dave.springboot3graphql.graphql.output;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

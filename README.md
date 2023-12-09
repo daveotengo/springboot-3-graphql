@@ -21,14 +21,11 @@ This Standalone Spring boot project demonstrates the crud operations on Product 
 ![GraphiQL](https://raw.githubusercontent.com/daveotengo/springboot-3-graphql/main/screenshots/Screenshot7.png)
 
 
-    
-    
-
 ## Testing the Application:
 
 ## GraphQL
 
-### To retrieve AllOrders:
+### To retrieve AllProducts:
     ```
     GraphiQL Syntax:
 
@@ -78,7 +75,7 @@ This Standalone Spring boot project demonstrates the crud operations on Product 
       message
       success
     }
-   }
+    }
         
     {
         "id": "c52e6c2c-b2f7-49d9-90e7-053bb5277f3d"

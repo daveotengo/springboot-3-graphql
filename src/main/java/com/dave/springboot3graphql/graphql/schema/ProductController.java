@@ -5,6 +5,7 @@ package com.dave.springboot3graphql.graphql.schema;
 import com.dave.springboot3graphql.exception.ProductNotFoundException;
 import com.dave.springboot3graphql.graphql.input.CreateProductInput;
 import com.dave.springboot3graphql.graphql.input.UpdateProductInput;
+import com.dave.springboot3graphql.graphql.output.DeletionStatus;
 import com.dave.springboot3graphql.model.Product;
 import com.dave.springboot3graphql.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
@@ -13,7 +14,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 
